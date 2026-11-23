@@ -1,0 +1,58 @@
+# Python Virtual Environments
+venv/
+.venv/
+ENV/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment Variables & Secrets
+.env
+.env.*
+
+# Model Weight Files & Generated Artifacts
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.bin
+*.h5
+*.model
+models_saved/
+artifacts/
+
+# Raw Data (large/unnecessary files)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/splits/*
+!data/splits/.gitkeep
+
+# Local IDE & Editor Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Node / Frontend Build & Cache
+node_modules/
+dist/
+build/
+.npm/
+
+# Database Files
+*.sqlite
+*.sqlite3
+*.db

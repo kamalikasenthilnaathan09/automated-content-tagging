@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+beautifulsoup4
+lxml
+sentence-transformers
+fastapi
+uvicorn
+sqlalchemy
+joblib
+matplotlib
+seaborn
+jupyter
